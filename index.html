@@ -37,11 +37,11 @@
             redirect_to = $("input[name=redirect_to]").val();
             $("input[name=redirect_to]").val("");
 
-            $("input[name=thankyou_message]").val("Obrigado");
+            // $("input[name=thankyou_message]").val("Obrigado");
 
-            // $("form").submit(function () {
-            //   window.top.location.href = redirect_to;
-            // });
+            $("form").submit(function () {
+              window.top.location.href = redirect_to;
+            });
           }
         }, 2000);
         var temp = this;
