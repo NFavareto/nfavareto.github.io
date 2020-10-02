@@ -20,11 +20,11 @@
         "UA-5226744-1"
       ).createForm();
     </script>
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-1.12.4.min.js"
       integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script>
       jQuery(document).ready(function ($) {
         var redirect_to = "";
@@ -37,11 +37,11 @@
             redirect_to = $("input[name=redirect_to]").val();
             $("input[name=redirect_to]").val("");
 
-            //    $('input[name=thankyou_message]').val("Obrigado");
+            $("input[name=thankyou_message]").val("Obrigado");
 
-            $("form").submit(function () {
-              window.top.location.href = redirect_to;
-            });
+            // $("form").submit(function () {
+            //   window.top.location.href = redirect_to;
+            // });
           }
         }, 2000);
         var temp = this;
