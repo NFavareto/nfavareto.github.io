@@ -1,0 +1,23 @@
+{
+  "name": "nfavareto.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NFavareto/nfavareto.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NFavareto/nfavareto.github.io/issues"
+  },
+  "homepage": "https://github.com/NFavareto/nfavareto.github.io#readme",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
+}
